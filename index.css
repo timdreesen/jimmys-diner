@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', sans-serif;
+} 
+
+h1 {
+    font-size: 39px;
+    font-weight: 300;
+    margin: 0;
+    
+}
+header {
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/burger.png");
+    background-size: cover;
+    color: #FFFFFF;
+    height: 167px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    /* border: limegreen 1px solid; */
+}
+
+.text-wrapper {
+    padding-left: 15px;
+    margin: auto 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.text-wrapper p{
+    font-weight: 300;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 25px;
+}
+.add-item{
+    margin: auto 0 auto auto;
+    font-size: 30px;
+    background-color: white;
+    border: #DEDEDE solid 1px;
+    border-radius: 50%;
+    padding: 10px 18px;
+    color: 3C3C3C;
+}
+.item-text-wrapper{
+    padding: 15px;
+    font-size: 28px;
+}
+.ingredients{
+    color: #8B8B8B;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.price{
+    display: block;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.emoji{
+    width: 100px;
+    text-align: center;
+    font-size: 75px;
+    margin: auto 0 auto 0;
+}
+
+.card-details{
+    display: none;
+    border-radius: 5px;
+    position: fixed;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 524px;
+    height: 470px;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-title{
+    text-align: center;
+    margin: 40px;
+}
+
+.cc-input{
+    padding: 20px 15px;
+    color: #757575;
+    border-radius: 5px;
+    border: 1px #757575 solid;
+}
+
+.btn{
+    background-color: #16DB99;
+    border: none;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.pay-btn{
+    margin-top: 40px;
+}
+
+.order-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+}
+.your-order{
+    padding: 0 45px;
+    display: none;
+}
+
+.order-list{
+    list-style: none;
+    padding: 0;
+}
+
+.order-item{
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-price{
+    margin: auto 0 auto auto;
+}
+
+.remove-btn{
+    font-size: 12px;
+    color: #BBBBBB;
+    border: none;
+    background:none;
+    padding: 12px;
+}
+
+.total{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: solid #393333 2px;
+}
+
+.complete-btn{
+    margin-top: 40px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.thank-you{
+    display: none;
+    /* display: flex; */
+    background-color: #ECFDF5;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.thanks{
+    color: #065F46;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
